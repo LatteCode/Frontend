@@ -3,12 +3,7 @@ import axios from "axios";
 const api = {
   BasicRequest(url) {
     try {
-      return axios.get(url, {
-        auth: {
-          username: 1,
-          password: ""
-        }
-      });
+      return axios.get(url);
     } catch (error) {
       console.error(error);
     }
