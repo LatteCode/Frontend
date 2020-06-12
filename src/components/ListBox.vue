@@ -1,7 +1,7 @@
 <template>
   <div class="list-view">
     <div class="list-icon-size">
-      <i :class="iconStyle" style="position: relative; color: rgb(70, 161, 189); alignment: center"></i>
+      <i :class="iconStyle"></i>
     </div>
     <div class="info-view">{{ info }}</div>
   </div>
@@ -32,5 +32,8 @@ export default {
   font-size: 1em;
   color: rgb(70, 161, 189);
   line-height: 1.65em;
+}
+i {
+  color: rgb(70, 161, 189);
 }
 </style>
