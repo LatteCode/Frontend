@@ -19,6 +19,11 @@ const routes = [
     component: Home
   },
   {
+    path: "/college/:id",
+    name: "Explain",
+    component: College
+  },
+  {
     path: "/explain/:place",
     name: "Explain",
     component: Explain
