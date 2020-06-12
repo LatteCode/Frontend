@@ -19,11 +19,6 @@ const routes = [
     component: Home
   },
   {
-    path: "/college/:id",
-    name: "College",
-    component: College
-  },
-  {
     path: "/explain/:place",
     name: "Explain",
     component: Explain
