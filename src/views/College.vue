@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header title="어떤 대학인가요?"></Header>
-    <div :key="idx" v-for="(list, idx) in list">
-        <router-link :to="{ name: 'Info', params: { id: list } }">
-            <MenuBox :class="'box_'+(idx+1)" imgPath="gigan.jpg" :textName="list"></MenuBox>
+    <Header :title="currentTitle"></Header>
+    <div :key="idx" v-for="(currentList, idx) in currentList">
+        <router-link :to="{ name: 'Info', params: { id: currentList } }">
+            <MenuBox :class="'box_'+(idx+1)" :imgPath="imgList[idx]" :textName="currentList"></MenuBox>
         </router-link>
     </div>
   </div>
@@ -14,16 +14,50 @@ import Header from "../components/Header";
 import MenuBox from "../components/MenuBox";
 export default {
   name: "College",
-  data :function(){
+  methods : {
+      getTitle_List() {
+        var temp = this.$router.currentRoute.path.split("/");
+        this.currentPath = decodeURI(temp[2]);
+        if(this.currentPath == "교내 기관 안내") {
+          this.currentTitle = "어느 대학을 찾으시나요?"
+          this.currentList = this.list;
+          this.defaultImg = "gigan.jpg";
+        }else if(this.currentPath == "학교 주변") {
+          this.currentTitle = "주변 어디를 찾으시나요?"
+          this.currentList = this.list2;
+          this.defaultImg = "gubean.jpg";
+        }
+      },
+      getImg(){
+        for (let i=0; i<this.currentList.length; i++) {
+          try {
+            require('../assets/' +this.currentList[i] +".jpg");
+            this.imgList.push(this.currentList[i]+".jpg");
+          } catch (e) {
+            this.imgList.push(this.defaultImg);
+          }
+        }
+      }
+  },
+  data (){
       return {
-          list:['융합산업대학원','공학대학','소프트웨어융합대학','약학대학','과학기술융합대학','국제문화대학','언론정보대학','경상대학','디자인대학','예체능대학','부총장실','교무처','학생처','사회교육원','국제교육원','창의인재원','총학생회']
+          list:['융합산업대학원','공학대학','소프트웨어융합대학','약학대학','과학기술융합대학','국제문화대학','언론정보대학','경상대학','디자인대학','예체능대학','사회교육원','국제교육원','창의인재원','학생회관'],
+          list2:['포지타노','일미닭갈비파전','브라더스테이크','미스터피자 안산한대점','카페 윈드밀','모모커피 안산한양대점','쥬시 안산한양대점'],
+          imgList:[],
+          currentList:[],
+          currentTitle:"",
+          currentPath:"",
+          defaultImg:""
       };
+  },
+  created (){
+    this.getTitle_List();
+    this.getImg();
   },
   components: {
     Header,
     MenuBox
   }
-  
 }
 </script>
 <style scoped>
