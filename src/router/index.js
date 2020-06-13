@@ -20,7 +20,7 @@ const routes = [
   },
   {
     path: "/college/:id",
-    name: "Explain",
+    name: "College",
     component: College
   },
   {
