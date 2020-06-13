@@ -4,7 +4,7 @@
     <router-link :to="{ name: 'College', params: { id: '교내 기관 안내' } }">
 			<MenuBox class="first_box" imgPath="gigan.jpg" textName="교내 기관 안내" ></MenuBox>
 		</router-link>
-		<router-link :to="{ name: 'Info', params: { id: '학교 주변' } }">
+		<router-link :to="{ name: 'College', params: { id: '학교 주변' } }">
       <MenuBox class="second_box" imgPath="gubean.jpg" textName="학교 주변"></MenuBox>
 		</router-link>
 		<div OnClick="location.href ='https://hybus.app/#/'">
