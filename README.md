@@ -35,6 +35,13 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## How could I contribute?
 
 ## Contributors
+### Code
+(1)Seokmin Hong([hsmint](https://hsmint.github.io)) 
+(2)Jinwoong Ryu([krumaska](https://krumaska.github.io))
+(3)Yeonggyun Kim([CXZ7720](https://zerogyun.dev))
+
+### Extra
+(1)Jeonghyeop Lim([AntsThatWander](https://antsthatwander.github.io)) - README, assets
 
 ## Link to Backend
 Go to [Backend](https://github.com/LatteCode/Backend)
