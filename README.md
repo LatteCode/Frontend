@@ -1,11 +1,11 @@
-# Frontend
+Frontend
 ![Alt text](/github/pipenv/locked/python-version/:user/:repo)
 ![Alt text](/apm/l/:packageName)
-
+===
 This is a frontend of our project web-app by team LatteCode.
 You could find institutes of Hanyang University Erica.
 It includes internal and outer ones.
-========
+
 
 ## Table of Contents
 1. [For User](#for-user)
@@ -48,7 +48,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### How to Contribute
 
-## Disclaimers
+## Disclaimer
 
 ### License
 [MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE)
