@@ -1,65 +1,71 @@
 # Frontend
 ![Alt text](/github/pipenv/locked/python-version/:user/:repo)
 ![Alt text](/apm/l/:packageName)
+
+This is a frontend of our project web-app by team LatteCode.
+You could find institutes of Hanyang University Erica.
+It includes internal and outer ones.
 ========
 
 ## Table of Contents
-1. For User
-    * Introduction
-    * How to Use
-    * Program Pictures
-2. For Developer
-    * Project Setup
-    * Requirements
-    * How to Contribute
-3. Disclamier
-    * License
-    * Contributors
+1. [For User](#for-user)
+    * [How to Use](#how-to-use)
+    * [Examples](#examples)
+2. [For Developer](#for-developer)
+    * [Project Setup](#project-setup)
+    * [Requirements](#requirements)
+    * [How to Contribute](#how-to-contribute)
+3. [Disclamier](#disclaimer)
+    * [License](#license)
+    * [Contributors](#contributors)
+    * [Link to Backend](#link-to-backend)
 
 ## For User
-### Introduction
-This is a frontend of our project web-app by team LatteCode.
 
-#### What is the usage of this web app?
-This app is for introducing institutes of Hanyang University Erica.
-It includes internal and outer ones.
+### How to Use
+
+### Program Pictures
+
+## For Developer
 
 ### Project Setup
-
+* Install
 ```
 yarn install
 ```
-
-#### Compiles and minifies for production
+* Compiles and minifies for production
 ```
 yarn build
 ```
-
-#### Lints and fixes files
+* Lints and fixes files
 ```
 yarn lint
 ```
-
-#### Customize configuration
+* Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-## Requirements
+### Requirements
 
-## How could I contribute?
+### How to Contribute
 
-## Contributors
-### Code
-(1)Seokmin Hong([hsmint](https://hsmint.github.io)   
-(2)Jinwoong Ryu([krumaska](https://krumaska.github.io))   
-(3)Yeonggyun Kim([CXZ7720](https://zerogyun.dev))
+## Disclaimers
 
-### Extra
-(1)Jeonghyeop Lim([AntsThatWander](https://antsthatwander.github.io)) - README, assets
+### License
+[MIT](https://github.com/nhn/tui.editor/blob/master/LICENSE)
 
-## Link to Backend
+### Contributors
+* Code
+    1. Seokmin Hong([hsmint](https://hsmint.github.io)   
+    2. Jinwoong Ryu([krumaska](https://krumaska.github.io))   
+    3. Yeonggyun Kim([CXZ7720](https://zerogyun.dev))
+
+* Extra
+    1. Jeonghyeop Lim([AntsThatWander](https://antsthatwander.github.io)) - README, assets
+
+### Link to Backend
 Go to [Backend](https://github.com/LatteCode/Backend)
 
-## License
+
 
 
 //how to use(제일 중요), capture본
