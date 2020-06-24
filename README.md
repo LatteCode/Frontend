@@ -1,10 +1,9 @@
 Frontend
-![GitHub top language](https://img.shields.io/github/languages/top/lattecode/frontend)"
+![GitHub top language](https://img.shields.io/github/languages/top/lattecode/frontend)
 =======================================================================================
 
 This is a frontend of our project by team LatteCode.   
-You could find institutes of Hanyang University Erica.   
-It includes internal and outer ones.   
+You could find colleges, departments and outer places of Hanyang University Erica.      
 
 ## Table of Contents
 1. [For User](#for-user)
@@ -21,10 +20,18 @@ It includes internal and outer ones.
 ## For User
 
 ### How to Use
-<img scr ="https://user-images.githubusercontent.com/50573908/85549542-117e7200-b65b-11ea-8d52-10afd5818925.png" width="60%" height="60%" alt="Start"></img>   
-<img scr = "https://user-images.githubusercontent.com/50573908/85549697-34108b00-b65b-11ea-9bea-cfc70de60f55.png" width="60%" height="60%" alt="Menu"></img>
-<img scr = "https://user-images.githubusercontent.com/50573908/85549661-2ce97d00-b65b-11ea-9507-58dbf04f5494.png" width="60%" height="60%" alt="Outer"></img>
-<img scr = "https://user-images.githubusercontent.com/50573908/85549731-3d99f300-b65b-11ea-8b4a-b71979a9c306.png" width="60%" height="60%" alt="College"></img>
+Our homepage has a structure of Menu -> Colleges and Departments/Outer places/Bus schedule -> Details.   
+See below for more information with pictures.   
+
+1. <img scr ="https://user-images.githubusercontent.com/50573908/85549542-117e7200-b65b-11ea-8d52-10afd5818925.png" width="300" height="660" alt="Start"></img>   
+When you first enter the site, you would see this page. Just press any key.
+2. <img scr = "https://user-images.githubusercontent.com/50573908/85549697-34108b00-b65b-11ea-9bea-cfc70de60f55.png" width="300" height="660" alt="Menu"></img>   
+This is the menu after the first page. You could see colleges and departments(교내 기관 안내), and outer places(학교 주변).   
+Or you could get information of school bus schedule.
+3. <img scr = "https://user-images.githubusercontent.com/50573908/85549661-2ce97d00-b65b-11ea-9507-58dbf04f5494.png" width="300" height="660" alt="Outer"></img>   
+When you click outer place, you would be here.
+<img scr = "https://user-images.githubusercontent.com/50573908/85549731-3d99f300-b65b-11ea-8b4a-b71979a9c306.png" width="300" height="660" alt="College"></img>   
+When you click colleges and departments, you would be here.
 
 ## For Developer
 
@@ -45,6 +52,8 @@ yarn lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Requirements
+yarn
+
 
 ### How to Contribute
 
