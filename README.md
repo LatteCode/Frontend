@@ -27,7 +27,7 @@ Our homepage has a structure of below.
 Menu -> Departments -> Jobs -> Detail information.     
 See below for example with pictures.    
 
-1. When you first enter the site, you would see this page. Just press any key.    
+1. When you first enter the site, you would see this page. Please wait a second.   
 ![Start](https://user-images.githubusercontent.com/50573908/85656851-3c64d680-b6ec-11ea-833b-bf7b7f8425a1.png)   
 2. This is the menu after the first page.    
 ![Menu](https://user-images.githubusercontent.com/50573908/85656863-4090f400-b6ec-11ea-8fe3-3a729c453909.png)   
@@ -84,16 +84,16 @@ However, please do not change depth of pages.
 Current depth is 4. Please check [How to Use](#how-to-use)   
 
 ##### Add a page
-* [Views](https://github.com/LatteCode/Frontend/tree/master/src/views)
+* [Views](https://github.com/LatteCode/Frontend/tree/master/src/views)   
 First, you should use views, which is a page frame.   
 If what you want to add is in views, you would use it.   
 Otherwise, you could add views, but it must be in depth of pages. 
 
-* [Index](https://github.com/LatteCode/Frontend/tree/master/src/router)
+* [Index](https://github.com/LatteCode/Frontend/tree/master/src/router)   
 If you use existing views, you would not get in here.   
 Otherwise, you should add new routes in here.
 
-* [Components](https://github.com/LatteCode/Frontend/tree/master/src/components)
+* [Components](https://github.com/LatteCode/Frontend/tree/master/src/components)   
 Using existing components is recommended, but adding new components is not prohobitted.
 
 * [Assets](https://github.com/LatteCode/Frontend/tree/master/src/assets)   
@@ -120,6 +120,9 @@ If you didn't follow our contribution rule, your PR or Issue will be rejected.
 
 ### Link to Backend
 * Go to [Backend](https://github.com/LatteCode/Backend)
+
+
+
 
 
 
