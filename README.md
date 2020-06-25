@@ -23,7 +23,6 @@ You could find the information, phone numbers, and positions of colleges, depart
 ### How to Use
 Our homepage has a structure of below.   
 Menu -> Departments -> Jobs -> Detail information.     
-**Bus Schedule in Menu is another project. Please check [here](https://github.com/BusHanyang/shuttle_PWA).**   
 See below for example with pictures.    
 
 1. When you first enter the site, you would see this page. Just press any key.    
@@ -31,7 +30,8 @@ See below for example with pictures.
 2. This is the menu after the first page.    
 ![Menu](https://user-images.githubusercontent.com/50573908/85656863-4090f400-b6ec-11ea-8fe3-3a729c453909.png)   
 You could see colleges and departments(교내 기관 안내), and nearby places(학교 주변).    
-Or you could get information of school bus schedule, click link above to find out more!    
+Or you could get information of school bus schedule.   
+**Bus Schedule in Menu is another project. Please check [here](https://github.com/BusHanyang/shuttle_PWA).**      
 3. When you click nearby places, you would be here.    
 ![Nearby](https://user-images.githubusercontent.com/50573908/85656880-4555a800-b6ec-11ea-9aa9-7c20fb056181.png)     
     1. If you click 카페(cafe), for example, you would be here.   
@@ -128,7 +128,7 @@ You should follow the form below.
 ## Disclaimer
 
 ### License
-* [MIT](https://github.com/AntsThatWander/Frontend/blob/master/LICENSE)
+* [MIT](https://github.com/LatteCode/Frontend/blob/master/LICENSE)
 
 ### Contributors
 * Code
