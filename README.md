@@ -1,6 +1,8 @@
-Frontend
+# Frontend
+
 ![GitHub top language](https://img.shields.io/github/languages/top/lattecode/frontend)
 ![GitHub](https://img.shields.io/github/license/LatteCode/Frontend)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/LatteCode/Frontend.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/LatteCode/Frontend/context:javascript)
 =======================================================================================
 
 This is a frontend of our project by team [LatteCode](https://github.com/LatteCode).   
@@ -46,6 +48,10 @@ Or you could get information of school bus schedule.
         ![machine](https://user-images.githubusercontent.com/50573908/85676447-91f7ae00-b701-11ea-8a06-8fee3cd069a1.png)   
 
 ## For Developer
+### Environment
+1. yarn >1.22
+2. node >12.0
+3. vue >2.6.11 / vue-cli >4.3.1
 
 ### Project Setup
 * Install
@@ -60,11 +66,8 @@ yarn build
 ```
 yarn lint
 ```
-* Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
 ### Requirements
-
+Most of our dependencies will be installed automatically while initialing with `yarn install` command.
 #### Dependencies
 1. axios ^0.19.2 
 2. core-js ^3.6.4
@@ -98,32 +101,8 @@ When you add a page, you should use any picture.
 In this case, you could do this by upload picture in assets directory.
 
 #### Pull Request
-You should follow the form below.
-
-##### 개요(outline)
-이번 PR은 ~~~의 문제를 해결합니다.   
-(This PR is for solving problem of ~~~)
-
-##### 작업사항(Work)
-* 파일명1 : 세부수정사항1   
-* 파일명2 : 세부수정사항2
-(File name 1 : modification detail 1)   
-(File name 2 : modification detail 2)
-
-##### 변경로직
-로직 A가 디바이스@에서 렌더링 문제가 생기는 것을 B로 바꾸어 해결함   
-(Solve rendering problem in device @ by change logic A into logic B)
-
-##### 변경전
-핵심 코드 스니펫 또는 캡쳐사진(Files change view 활용)   
-(main code snippets or capture-using files change view)
-
-##### 변경후
-핵심 코드 스니펫 또는 캡쳐사진(Files change view 활용)   
-(main code snippets or capture-using files change view)
-
-###### 기타(Etc.)
-* 기타 참고사항(Etc.)
+We have specific PR template. You should fill in all lines of the template.
+If you didn't follow our contribution rule, your PR or Issue will be rejected.
 
 ## Disclaimer
 
@@ -134,7 +113,7 @@ You should follow the form below.
 * Code
     1. Seokmin Hong([hsmint](https://hsmint.github.io))   
     2. Jinwoong Ryu([krumaska](https://krumaska.github.io))   
-    3. Yeonggyun Kim([CXZ7720](https://zerogyun.dev))
+    3. Yeonggyun Kim([CXZ7720](https://github.com/CXZ7720))
 
 * Extra
     1. Jeonghyeop Lim([AntsThatWander](https://antsthatwander.github.io)) - README, assets
