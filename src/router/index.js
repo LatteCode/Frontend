@@ -24,14 +24,14 @@ const routes = [
     component: College
   },
   {
-    path: "/explain/:place",
-    name: "Explain",
-    component: Explain
-  },
-  {
     path: "/info/:id",
     name: "Info",
     component: Info
+  },
+  {
+    path: "/explain/:place",
+    name: "Explain",
+    component: Explain
   }
 ];
 

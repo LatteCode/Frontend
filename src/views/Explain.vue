@@ -50,7 +50,7 @@ export default {
     getAssets() {
       const url = this.idUrl.split("/");
       this.title = `${url[1]}`;
-      this.imgUrl = require(`../assets/${url[0]}.jpg`);
+      this.imgUrl = require(`../assets/default_department.svg`);
     },
     getParmeter(url) {
       if (url[0] === "소프트웨어융합대학") {
@@ -96,7 +96,8 @@ export default {
   position: absolute;
   overflow: hidden;
   width: 100%;
-  height: 75%;
+  top: 5%;
+  text-align: center;
 }
 .img-container img {
   position: relative;
