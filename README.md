@@ -4,7 +4,7 @@ Frontend
 =======================================================================================
 
 This is a frontend of our project by team [LatteCode](https://github.com/LatteCode).   
-You could find colleges, departments and outer places of Hanyang University Erica.      
+You could find the information, phone numbers, and positions of colleges, departments and nearby places of Hanyang University Erica.      
 
 ## Table of Contents
 1. [For User](#for-user)
@@ -14,24 +14,36 @@ You could find colleges, departments and outer places of Hanyang University Eric
     * [Requirements](#requirements)
     * [How to Contribute](#how-to-contribute)
 3. [Disclamier](#disclaimer)
+    * [License](#license)
     * [Contributors](#contributors)
     * [Link to Backend](#link-to-backend)
 
 ## For User
 
 ### How to Use
-Our homepage has a structure of Menu -> Details of Colleges and Departments/Outer places/Bus schedule.   
-See below for more information with pictures.   
+Our homepage has a structure of below.   
+Menu -> Departments -> Jobs -> Detail information.     
+**Bus Schedule in Menu is another project. Please check [here](https://github.com/BusHanyang/shuttle_PWA).**   
+See below for example with pictures.    
 
-1. ![Start](https://user-images.githubusercontent.com/50573908/85656851-3c64d680-b6ec-11ea-833b-bf7b7f8425a1.png)   
-When you first enter the site, you would see this page. Just press any key.
-2. ![Menu](https://user-images.githubusercontent.com/50573908/85656863-4090f400-b6ec-11ea-8fe3-3a729c453909.png)   
-This is the menu after the first page. You could see colleges and departments(교내 기관 안내), and outer places(학교 주변).   
-Or you could get information of school bus schedule.
-3. ![Outer](https://user-images.githubusercontent.com/50573908/85656880-4555a800-b6ec-11ea-9aa9-7c20fb056181.png)   
-When you click outer place, you would be here.   
-4. ![College](https://user-images.githubusercontent.com/50573908/85656873-42f34e00-b6ec-11ea-8361-841743c38402.png)      
-When you click colleges and departments, you would be here.
+![Start](https://user-images.githubusercontent.com/50573908/85656851-3c64d680-b6ec-11ea-833b-bf7b7f8425a1.png)   
+1. When you first enter the site, you would see this page. Just press any key.   
+![Menu](https://user-images.githubusercontent.com/50573908/85656863-4090f400-b6ec-11ea-8fe3-3a729c453909.png)   
+2. This is the menu after the first page.   
+You could see colleges and departments(교내 기관 안내), and nearby places(학교 주변).   
+Or you could get information of school bus schedule, click link above to find out more!   
+![Nearby](https://user-images.githubusercontent.com/50573908/85656880-4555a800-b6ec-11ea-9aa9-7c20fb056181.png)   
+3. When you click nearby places, you would be here.  
+    ![cafe](https://user-images.githubusercontent.com/50573908/85676059-36c5bb80-b701-11ea-8c5d-f3021018061d.png)   
+    1. If you click 카페(cafe), for example, you would be here.
+        ![cafe_windmill](https://user-images.githubusercontent.com/50573908/85676142-4ba24f00-b701-11ea-9039-94b60aa6c381.png)   
+        1. And this is a page of 카페 윈드밀(Cafe Windmill).
+![College](https://user-images.githubusercontent.com/50573908/85656873-42f34e00-b6ec-11ea-8361-841743c38402.png)      
+4. When you click colleges and departments, you would be here.
+    ![engineering](https://user-images.githubusercontent.com/50573908/85676376-82786500-b701-11ea-9f1c-842c84494b87.png)   
+    1. If you click 공학대학(College of Engineering), for example, you would be here.
+        ![machine](https://user-images.githubusercontent.com/50573908/85676447-91f7ae00-b701-11ea-8a06-8fee3cd069a1.png)   
+        1. And this is a page of 기계공학(Mechanical Engineering).
 
 ## For Developer
 
@@ -62,11 +74,11 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### How to Contribute
 
-#### basic
+#### Basic
 ##### Where to Contribute
 You should modify **scr** directory, which means you could add or modify our pages.   
 However, please do not change depth of pages.   
-Current depth is 2(Menu -> Details in College / Departments / Outer places)   
+Current depth is 4(Menu -> College / Departments / Outer places -> )   
 
 ##### Add a page
 * [Views](https://github.com/LatteCode/Frontend/tree/master/src/views)
